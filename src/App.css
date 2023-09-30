@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  height: 600px;
+  width: 500px;
+  background-color: cyan;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 500px;
+  position: absolute;
+}
+.heading{
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+input{
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+}
+.component{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.btn{
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+}
+.fa-plus{
+  font-size: 20px;
+  font-weight: bold;
+}
+.add{
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(251, 249, 249);
+}
+.add-items{
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+  margin-left: 40px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.item{
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+.fa-trash{
+  font-size: 20px;
+  margin-top: 12px;
+  margin-right: 20px;
+  color: red;
+}
